@@ -223,7 +223,7 @@ private fun MetricItem(
         Text(
             text = label,
             style = TextStyle(
-                fontFamily = FontFamily(Font(R.font.poppins_medium)),
+                fontFamily = FontFamily(Font(R.font.poppins_regular)),
                 lineHeight = 18.sp,
                 fontSize = 12.sp,
                 color = TextSecondary,
