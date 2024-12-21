@@ -15,8 +15,17 @@ A modern Android weather application built with Jetpack Compose that allows user
 - Real-time weather updates
 
 ## Screenshots
+![Screenshot_20241221_201224](https://github.com/user-attachments/assets/c0f7d664-9c2b-4357-85b2-28ec75ddbe1f)
 
-[Add your app screenshots here]
+
+![Screenshot_20241221_202338](https://github.com/user-attachments/assets/a54fa0bb-47b4-4772-907a-d11a3c9a94ca)
+
+
+![Screenshot_20241221_202414](https://github.com/user-attachments/assets/3fc8daef-a888-4b8a-88e3-549e6649f616)
+
+
+![Screenshot_20241221_200950](https://github.com/user-attachments/assets/6bede46c-84c9-46cd-a164-31e94299a93f)
+
 
 ## Tech Stack
 
@@ -49,20 +58,22 @@ A modern Android weather application built with Jetpack Compose that allows user
 
 ## Project Structure
 
+```
 com.example.weathertracker/
 ├── data/
-│ ├── local/ # Room database
-│ ├── remote/ # API services
-│ └── repository/ # Repository implementation
-├── di/ # Dependency injection modules
+│   ├── local/          # Room database
+│   ├── remote/         # API services
+│   └── repository/     # Repository implementation
+├── di/                 # Dependency injection modules
 ├── domain/
-│ └── model/ # Domain models
+│   └── model/         # Domain models
 ├── ui/
-│ ├── theme/ # App theme and styling
-│ └── # App screens
-├── utils/ # Utility classes
-|
-└── viewModel
+│   ├── components/    # Reusable UI components
+│   ├── theme/         # App theme and styling
+│   └── screens/       # App screens
+├── utils/             # Utility classes
+└── viewmodel/         # ViewModels
+```
 
 ## Requirements
 
@@ -77,10 +88,6 @@ com.example.weathertracker/
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-[Add your license information here]
 
 ## Acknowledgments
 
